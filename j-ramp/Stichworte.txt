@@ -1,0 +1,19 @@
+Controller ATTiny24
+
+1. 5*LED steuern (ohne PWM) PA0-PA4 (BS170+180Ohm)
+
+2. Servo für Tor PA5/OC1B
+
+3. Schalter Innenbeleuchtung PA6 (BAT42 an PB2)
+
+4. Weisse LED Innenbeleuchtung mit PWM PA7/OC0B (BS170+470Ohm)
+
+5. Gelbe LED blinken wenn Tor Bewegung PB0 (390Ohm)
+
+6. Servo Supply PB1 (BS250)
+
+7. Steuerungsknopf PB2/INT0 (gegen Gnd)
+
+8. DebugWire PB3
+
+

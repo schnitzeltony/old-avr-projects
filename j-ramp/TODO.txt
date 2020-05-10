@@ -1,0 +1,9 @@
+1. Innenbeleuchtung
+
+2. Spannungsmessung
+
+3. Stromsparmassnahmen (Reset Leitung)
+
+4. Endandschläge
+
+5. RC5
