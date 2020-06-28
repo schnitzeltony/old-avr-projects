@@ -38,8 +38,8 @@ $(TARGET).elf: $(OBJECTS)
 .c.o:
 	$(CC) $(CFLAGS) -mmcu=$(MCU) $< -o $@
 
-size: $(TARGET).eep
-	$(SIZE) $(TARGET).elf $(TARGET).eep
+size:
+	$(SIZE) -C --mcu=$(MCU) $(TARGET).elf
 
 program:
 	avrdude -p$(MCU) -c$(PROGRAMMER) -Uflash:w:$(TARGET).hex:a
