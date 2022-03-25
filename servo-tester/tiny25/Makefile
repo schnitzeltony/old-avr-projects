@@ -17,7 +17,7 @@ PROGRAMMER ?= dragon_isp
 
 # from here the code should be common and reusable
 OBJECTS=$(SOURCES:.S=.o)
-CFLAGS=-x assembler-with-cpp -c
+CFLAGS+=-x assembler-with-cpp -c
 LDFLAGS=
 
 all: hex eeprom size

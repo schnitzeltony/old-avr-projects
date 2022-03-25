@@ -17,7 +17,7 @@ PROGRAMMER ?= dragon_isp
 
 # from here the code should be common and reusable
 OBJECTS=$(SOURCES:.c=.o)
-CFLAGS=-c -Wall -Os
+CFLAGS+=-c -Wall -Os
 LDFLAGS=
 
 all: hex eeprom size
