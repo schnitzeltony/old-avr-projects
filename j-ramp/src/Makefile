@@ -2,7 +2,6 @@ PROJECT = JannickRampe
 MCU = attiny24
 TARGET = JannickRampe
 SOURCES = \
-    JannickRampe.h \
     JannickRampe.c
 
 # toolchain

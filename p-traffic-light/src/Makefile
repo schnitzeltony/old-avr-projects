@@ -2,7 +2,6 @@ PROJECT = PaulaAmpel
 MCU = attiny13
 TARGET = PaulaAmpel
 SOURCES = \
-    PaulaAmpel.h \
     PaulaAmpel.c
 
 # toolchain
