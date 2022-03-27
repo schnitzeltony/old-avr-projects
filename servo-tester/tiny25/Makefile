@@ -38,7 +38,7 @@ $(TARGET).elf: $(OBJECTS)
 .S.o:
 	$(CC) $(CFLAGS) -mmcu=$(MCU) $< -o $@
 
-size:
+size: $(TARGET).elf
 	$(SIZE) -C --mcu=$(MCU) $(TARGET).elf
 
 program:
